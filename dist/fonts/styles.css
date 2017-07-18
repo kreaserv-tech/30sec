@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: 'Soria-Soria';
+  src: url('Soria-Soria.eot?#iefix') format('embedded-opentype'),  url('Soria-Soria.woff') format('woff'), url('Soria-Soria.ttf')  format('truetype'), url('Soria-Soria.svg#Soria-Soria') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),  url('Roboto-Regular.woff') format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('Roboto-Thin.eot?#iefix') format('embedded-opentype'),  url('Roboto-Thin.woff') format('woff'), url('Roboto-Thin.ttf')  format('truetype'), url('Roboto-Thin.svg#Roboto-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

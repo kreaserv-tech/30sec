@@ -1,0 +1,431 @@
+body {
+	font-family: 'Roboto-Regular', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto-Regular', cursive;
+}
+
+html,body{
+	width:100%;
+	height: 100%;
+}
+.row{
+    margin: 0px;
+}
+
+
+.iframe{
+
+    min-height: 300px;
+}
+
+
+.rotate{
+	display: none;
+	background: #00BCD4;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.b1{
+  display: none;
+}
+.b2{
+  display: none;
+}
+
+.rotate img{
+	    padding-top: 50%;
+    padding-left: 10%;
+}
+
+
+.preloader{
+
+	position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background: black;
+    left: 0;
+}
+
+
+.preloader img{
+	/*margin: auto;*/
+	position: absolute;
+	width: 40%;
+    left: 30%;
+    top: 5%;
+}
+
+
+.menu{
+	margin-top: 5%;
+}
+
+button{
+	outline: none;
+}
+
+.pad-top-20per{
+	 padding-top: 20%;
+}
+
+.font-roboto-bold{
+
+	font-family: Roboto-Regular;
+	font-weight: bold;
+}
+
+.font-roboto-thin{
+
+	font-family: Roboto-Thin;
+}
+
+.font-roboto-italic{
+	font-family: Roboto-Regular;
+	font-style: italic;
+}
+
+.font-roboto-regular{
+
+	font-family: Roboto-Regular;
+}
+
+.about-header-content{
+	 font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+.about-container{
+    padding: 0px 2%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.homebg{
+	width: 100%;
+    height: 100%;
+    background: #3caac7;
+    overflow: hidden;
+    /*position: relative;*/
+}
+
+.thirty-sec-bg{
+
+	width: 100%;
+    background: #3caac7;
+
+    min-height: 100%;
+}
+
+
+.no-mar{
+	margin:0;
+}
+
+.no-pad{
+	padding: 0;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.social{
+	margin-top: 32%;
+    padding: 0 10%;
+}
+
+.menu h2{
+
+    float: left;
+    margin-right: 3%;
+    font-family: Soria-Soria;
+    width: 30%;
+    text-align: center;
+}
+
+.about-book{
+	display: none;
+	position: absolute;
+    bottom: 12%;
+    width: 35%;
+    left: 14%;
+}
+
+.thitry-container .col-lg-3{
+
+	text-align: center;
+}
+
+.thitry-container{
+	    margin: 0 5% 0 15%;
+}
+
+p{
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.home-images{
+	/*position: relative;*/
+	/*left: 35%; */
+}
+
+
+.pop{
+    position: absolute;
+    bottom: -100%;
+    width: 43%;
+    left: 30%;
+    z-index: 2;
+}
+
+.pop-text{
+    position: absolute;
+    left: -65%;
+    bottom: 20%;
+    width: 15%;
+    z-index: 1;
+}
+
+
+.about-pop{
+	position: absolute;
+    bottom: -100%;
+    width: 35%;
+    left: 17%;
+}
+
+
+.sec-image-container{
+
+	 height: 280px;
+}
+
+.video-container{
+	    padding: 0 2%;
+}
+
+.mar-top-7per{
+	 margin-top: 7%;
+}
+
+.text-right{
+	text-align: :right;
+}
+
+.btn-sec{
+	    background: transparent;
+    border: 1px solid black;
+    width: 100%;
+    padding: 4%;
+}
+
+.btn-sec:hover{
+	background: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 4%;
+    color: white;
+}
+
+.video-grid p{
+
+	padding: 1% 0;
+}
+.video-grid img{
+	cursor: pointer;
+}
+
+
+.text-white{
+	color: white;
+}
+.text-justify{
+   
+}
+
+.active-page{
+	color: white;
+	text-decoration: underline;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.pos-rel{
+	position: relative;
+
+}
+
+a:hover, a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.mar-bot-3per{
+	    margin-bottom: 3%;
+}
+
+.mar-top18per{
+	    margin-top: 18%;
+}
+
+@media screen and (max-width: 500px){
+
+	.rotate{
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+     /*.logo{
+     	width:20%;
+     }*/
+
+
+     .preloader img{
+     	width: 45%;
+     }
+     .content_div{
+height: 210px;overflow: scroll;
+}
+
+     .b1{
+    display: block;
+    float: left;
+    
+    border-radius: 95px;
+    width: 53px;
+    background: none;
+    border: none;
+   
+     }
+     .b2{
+    display: block;
+    float: right;
+    margin-right: 15%;
+    border-radius: 95px;
+    width: 53px;
+    background: none;
+    border: none;
+     }
+
+    .about-container {
+        height: 1205px;
+        overflow: scroll;
+	}
+
+    h1{
+    	font-size: 18px!important;
+
+    }
+    h2{
+    	font-size: 16px!important;
+    }
+
+
+    p{
+     	font-size: 12px!important;
+    }
+
+    .sec-image-container {
+	    height: 180px!important;
+	}
+
+	button{
+		font-size: 7px;
+	}
+
+	.pop {
+	    width: 35%;
+	}
+
+	.pop-text {
+	    bottom: 13%;
+	}
+
+	.about-pop {
+	    width: 30%;
+	}
+
+	.about-book {
+	    width: 30%;
+	}
+
+    .iframe{
+
+        min-height: 100px;
+    }
+
+}
+@media screen and (max-width: 569px) {
+    .content_div{
+      height: 180px;overflow: scroll;
+    }
+    .twit {
+    padding-left: 6%;
+    width: 18px;
+    }
+    .fb {
+    padding-left: 6%;
+    width: 18px;
+    }
+    .fb {
+    padding-left: 6%;
+    width: 18px;
+    }
+  }
+
+      .icon{
+        margin-top: 30%;
+      }
+      .twit{
+        font-size:36px; padding-left: 6%;
+      }
+      .insta{
+        font-size:36px;padding-left: 6%;
+      }
+      .fb{
+        font-size:36px;padding-left: 6%;
+      }
+      @media screen and (max-width: 767px) {
+        .icon{
+        margin-top: 42%;
+      }
+
+          .twit{
+        font-size:22px; padding-left: 6%;
+      }
+      .insta{
+        font-size:22px;padding-left: 6%;
+      }
+      .fb{
+        font-size:22px;padding-left: 6%;
+      }
+
+      }
+
